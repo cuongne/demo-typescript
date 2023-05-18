@@ -1,0 +1,29 @@
+@import "@/scss/style.scss";
+.container__register {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("../../assets/images/background2.svg") no-repeat;
+  background-position: 50% 50%;
+  background-size: toRem(1200) toRem(800);
+  .ant-spin-container {
+    width: toRem(450);
+    .ant-form {
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #d9d9d9;
+      border-radius: toRem(4);
+      padding: toRem(32);
+      .title{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        span{
+          font-weight: 500;
+          font-size: toRem(24);
+        }
+      }
+    }
+  }
+}

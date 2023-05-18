@@ -1,0 +1,12 @@
+@import "@/scss/style.scss";
+.container__user {
+  .icon{
+    cursor: pointer;
+  }
+  .button__list{
+    display: flex;
+    justify-content: flex-end;
+    gap:toRem(8)
+   
+  }
+}

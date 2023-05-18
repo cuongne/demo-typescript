@@ -1,0 +1,8 @@
+@import "@/scss/style.scss";
+.container__article {
+  .button__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: toRem(8);
+  }
+}

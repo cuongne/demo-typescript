@@ -1,0 +1,23 @@
+@import "@/scss/style.scss";
+.ant-layout{
+    height: 100%;
+    .button__link{
+        font-size: toRem(32);
+        padding: toRem(8);
+        color:#ccc;
+        width: 64;
+        height: 64;
+        &:hover{
+            color:#ccc;
+        } 
+    }
+    .ant-menu{
+        margin-top: toRem(16);
+    }
+    .button__header{
+        display: flex;
+        width: 100%;
+        justify-content:space-between;
+        align-items:center;
+    }
+}
